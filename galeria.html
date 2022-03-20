@@ -3,27 +3,68 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Por Un Dia</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<title>Por Un Dia</title>
 </head>
-<body class="grid template-areas">
+<body class="template-areas">
 	<header class="espacio-row-item">
 		<!-- inicia nav -->
-		<nav id="navegacion">
-			<a href="index.html">
-				<img src="fotos/logoxid.svg" alt="logo de xid">
-			</a>
-			<ul>
-				<li><a href="historia.html">Historia</a></li>
-				<li><a href="galeria.html">Galería</a></li>
-				<li><a href="integrantes.html">Integrantes</a></li>
-				<li><a href="fechas.html">Fechas</a></li>
-			</ul>
-		</nav>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+    	<img src="fotos/logoxid.svg" alt="" class="w-75 scale">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="historia.html">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="integrantes.html">Integrantes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fechas.html">Fechas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
 		<!-- cierra nav -->
-	</header>
-	<!-- inicia contenido principal -->
-	<main id="contenido">
+		<!-- inicia contenido principal -->
+
+	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="galeria/calle/1.jpg" class="d-block w-100" alt="Banda junta">
+    </div>
+    <div class="carousel-item">
+      <img src="galeria/calle/13.jpg" class="d-block w-100" alt="de espalda">
+    </div>
+    <div class="carousel-item">
+      <img src="galeria/calle/16.jpg" class="d-block w-100" alt="plaza">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+	<!--<main id="contenido">
 		<section>
 			<h3>Banda</h3>
 			<div class="container flex-row justify-content">
@@ -50,7 +91,7 @@
 			<img src="galeria/grabacion/40.jpg" alt="" class="imgB ">
 			</div>
 		</section>
-	</main>
+	</main>-->
 
 	<footer id="pie">
 		<h3 class="pie">Seguinos en:</h3>

@@ -8,7 +8,7 @@
 }
 /*General*/
 
-h2,h3{
+h1,h2,h3{
 	color: green;
 	font-size: 2.5rem;
 	font-family: 'Syne Tactile', cursive;
@@ -19,10 +19,12 @@ html{
 	font-size:62.5%; 
 }
 
+
 body{
 	background-image: url(../fotos/fondo.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
+	overflow-x: hidden;
 	/*	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 10vh 80vh 10vh;
@@ -45,36 +47,24 @@ header nav ul{
 	display: inline-block;
 }
 header nav ul li{
-	list-style: none;
-	display: inline-block;
 	margin: 10px;
-	margin-top: -70px;
-	height: 20xp;
-	vertical-align: middle;
+	margin-top: 20px;
+	color: #ECDB4A;
 }
 
-header nav ul li:hover{
+/*header nav ul li:hover{
 	color: #ECDB4A;
 	font-weight: 600;
-}
+}*/
 
 header nav ul li a{
-	color: #ECDB4A;
-	text-decoration: none;
 	font-size: 2rem;
 	font-family: 'Syne Tactile', cursive;
-	height: 80%;	
-	width: 50%;	
 }
 
-header nav a img{
-	height: 80%;
-	width: 25%;
-	margin-top: 7px;
-}
 
 main section p {
-	color: grey;
+	color: rgba(219, 223, 250, 1.0);
 	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -122,33 +112,33 @@ main section p {
 /*Index*/
 
 .section-pI{
-	width: 50%;
+	width: 80%;
 	height: auto;
-	margin: 20px auto;
 	border: double 4px rgba(12, 110, 7, 0.8);
-	padding: 20px 20px;
-	box-sizing: border-box;
+	padding: 15px;
+	margin-top: 200px;
 } 
 
 .ubicar-img1{
-	margin-top: 20px;
-	margin-left: 40px;
-	margin-right: 20px;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 50px;
 
 }
 
 
-.ubicar-form{
+/*.ubicar-form{
 	float: right;
 	width: 250px;
-	margin: 100px 300px;
-}
+	margin: 100px 300px
+}*/
 
 
 .ubicar-img2{
-	margin top: 20px;
-	margin-left: 40px;
-	margin-right: 20px;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 180px;
 }
 
 .container{
@@ -177,15 +167,21 @@ main section p {
 
 /*Historia*/
 
+.ubicar-imgH{
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
 
+}
 
 .section-pH{
-	width: 70%;
-	height: auto;
-	margin: 20px auto;
+	width: 100%;
+	/*height: auto;*/
+	/*margin: 20px auto;*/
 	border: double 4px rgba(12, 110, 7, 0.8);
-	padding: 20px 20px;
-	box-sizing: border-box;
+	/*padding: 20px 20px;*/
+	/*box-sizing: border-box;*/
 }
 
 /*Fechas*/
