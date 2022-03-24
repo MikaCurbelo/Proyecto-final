@@ -6,63 +6,75 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Por Un Dia</title>
-</head>
-<body class="template-areas">
-	<header class="espacio-row-item">
-		<!-- inicia nav -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-    	<img src="fotos/logoxid.svg" alt="" class="w-75 scale">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="historia.html">Historia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="integrantes.html">Integrantes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="galeria.html">Galería</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="fechas.html">Fechas</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
+	</head>
+	<body class="template-areas">
+		<header class="espacio-row-item">
+			<!-- inicia nav -->
+	<nav class="navbar navbar-expand-lg">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="index.html">
+	    	<img src="fotos/logoxid.svg" alt="" class=" w-75 scale">
+	    </a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav ms-auto">
+	        <li class="nav-item">
+	          <a class="nav-link transform colorNav" aria-current="page" href="historia.html">Historia</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link colorNav transformUp" href="integrantes.html">Integrantes</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link colorNav transform" href="galeria.html">Galería</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link colorNav transformUp" href="fechas.html">Fechas</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	</header>
 		<!-- cierra nav -->
 		<!-- inicia contenido principal -->
 
-	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<main>
+	<div class="container-fluid py-3">
+		<h1 class="text-center">Galería</h1>
+		<div class="row">
+			<section class="col-sm-12 col-md-6">
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="galeria/calle/1.jpg" class="d-block w-100" alt="Banda junta">
+      <img src="galeria/calle/1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="galeria/calle/13.jpg" class="d-block w-100" alt="de espalda">
+      <img src="galeria/calle/13.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="galeria/calle/16.jpg" class="d-block w-100" alt="plaza">
+      <img src="galeria/calle/16.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-
+			</section>
+		</div>
+	</div>
+</main>
 
 	<!--<main id="contenido">
 		<section>
