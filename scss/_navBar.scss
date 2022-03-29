@@ -1,0 +1,25 @@
+.botonera{
+	background-color: $colorPpal;
+	padding: 10px 20px;
+	height: 20vh;
+	img{
+		width: w-75;
+		//Animacion//
+	}
+	ul{
+		display: flex;
+		li{
+			margin: 10px;
+			margin-top: 20px;
+			color: $colorSecundario;
+			a{
+				font-size: $text3;
+				font-family: $fontTitulo;
+				color: $colorSecundario;
+				&:hover{
+					//Animaciones//
+				}
+			}
+		}
+	}
+}
