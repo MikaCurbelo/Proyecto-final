@@ -1,25 +1,31 @@
 footer{
-	h3{
-		color: $colorTitulo;
-		font-family: $fontTitulo;
-		font-size: $text3;
+	display: flex;
+	img{
+		margin-bottom: -30px;
+		float: right;
+		margin-right: 250px;
+		&:hover{
+			transform: scale(1.5);
+			transition: 2s;
+		}
 	}
 	img{
 		margin-bottom: -30px;
 		float: right;
 		margin-right: 250px;
-		//animacion
+		&:hover{
+			transform: scale(1.5);
+			transition: 2s;
+		}
+		
 	}
 	img{
 		margin-bottom: -30px;
 		float: right;
 		margin-right: 250px;
-		//animacion
-	}
-	img{
-		margin-bottom: -30px;
-		float: right;
-		margin-right: 250px;
-		//animacion
+		&:hover{
+			transform: scale(1.5);
+			transition: 2s;
+		}
 	}
 }

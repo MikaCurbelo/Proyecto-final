@@ -1,8 +1,5 @@
 #contenido{
 	h1{
-		color: $colorTitulo;
-		font-size: $text1;
-		font-family: $fontTitulo;
 		margin-top: 80px;
 		margin-left: 10px;
 	}
@@ -11,22 +8,24 @@
 		margin-top: 50px;
 		margin-left: 100px;
 		margin-right: 50px;
+		&:hover{
+			transform: skew(5deg);
+			transition: 2s;
+			cursor: pointer;
+		}
 	}
 	p{
-		color: $colorTexto;
+		color: map-get($map:$paleta,$key:'tres');
 		font-family: $fontPpal;
 		font-size: $text4;
 		font-weight: 600;
 		line-height: 2em;
 		width: 80%;
 		height: auto;
-		border: double 4px $colorPpal;
+		border: double 4px map-get($map:$paleta,$key:'dos');
 		padding: 15px;
 	}
 	h3{
-		color: $colorTitulo;
-		font-size: $text2;
-		font-family: $fontTitulo;
 		margin-top: 50px;
 	}
 	textarea{
@@ -41,14 +40,7 @@
 
 
 #contenidoHistoria{
-	h1{
-		color: $colorTitulo;
-		font-size: $text1;
-		font-family: $fontTitulo;
-		margin-top: 80px;
-		margin-left: 10px;
-	}
-
+	
 	img{
 		width: 100%;
 		margin-top: 50px;
@@ -73,11 +65,16 @@
 	p{
 		width: 100%;
 		font-family: $fontPpal;
-		color: $colorTexto;
+		color: map-get($map:$paleta,$key:'tres');
 		font-size: $text4;
-
+		border: double 4px map-get($map:$paleta,$key:'dos');
+		padding: 10px;
+		line-height: 2em;
+		height: auto;
+		width: 80%;
+		margin-left: 20px;
 		&:first-letter{
-		color: $colorTexto;
+		color: map-get($map:$paleta,$key:'tres');
 		font-size: $text2;
 		font-weight: 600;
 		}
@@ -92,8 +89,8 @@
 		margin-right: 40px;
 	}
 	ul{
-		background-color:$colorSecundario;
-		border: double 4px black; 
+		background-color: map-get($map:$paleta,$key: 'cuatro');
+		border: double 4px map-get($map:$paleta,$key:'cinco'); 
 		padding: 5px 5px;
 		width: $w-50;
 		margin-top: 100px;
@@ -112,15 +109,5 @@
 		margin-left: 100px;
 		margin-right: 50px;
 	}
-	p{
-		font-size: $text4;
-		font-family: $fontPpal;
-		color: $colorTexto;
-		width: 80%;
-		height: auto;
-		border: double 4px $colorPpal;
-		padding: 15px;
-		margin-top: 150px;
-		margin-left: 50px;
-	}
 }
+
