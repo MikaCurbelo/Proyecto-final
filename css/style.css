@@ -16,7 +16,7 @@ body {
   color: #dbdffa;
   width: 80%;
   height: auto;
-  border: double 4px rgba(116, 187, 33, 0.8);
+  border: double 4px #74bb21;
   padding: 15px;
   margin-top: 150px;
   margin-left: 50px;
@@ -24,7 +24,7 @@ body {
 
 .titulo, .titulo2, .titulo3 {
   text-align: center;
-  color: rgba(116, 187, 33, 0.8);
+  color: #74bb21;
   font-size: 4em;
   font-family: "Just Another Hand", cursive; }
 
@@ -34,8 +34,11 @@ body {
 .titulo3 {
   font-size: 2em; }
 
+.botonera-collapse {
+  background-color: #74bb21; }
+
 .botonera {
-  background-color: rgba(116, 187, 33, 0.8);
+  background-color: #74bb21;
   padding: 10px 20px;
   height: 20vh;
   width: 100%; }
@@ -49,11 +52,11 @@ body {
     .botonera ul li {
       margin: 10px;
       margin-top: 20px;
-      color: rgba(116, 187, 33, 0.8); }
+      color: #74bb21; }
       .botonera ul li a {
         font-size: 2em;
         font-family: "Just Another Hand", cursive;
-        color: rgba(116, 187, 33, 0.8); }
+        color: #74bb21; }
         .botonera ul li a:hover {
           transform: translateY(-10px); }
 

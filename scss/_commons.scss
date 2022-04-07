@@ -1,7 +1,7 @@
 // COLORES
 
 $paleta:(
-	'uno': rgba(116,187,33, .8),
+	'uno': rgba(116,187,33, 1.0),
 	'dos': rgba(116,187,33, .9),
  	'tres': rgba(219, 223, 250, 1.0),
  	'cuatro': rgba(236, 219, 74, 1.0),
@@ -52,4 +52,8 @@ $w-25:25%;
 .titulo3{
 	@extend .titulo;
 	font-size: $text3;
+}
+
+.botonera-collapse{
+	background-color: map-get($map:$paleta,$key:'uno');
 }
