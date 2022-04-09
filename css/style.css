@@ -152,26 +152,11 @@ body {
   margin-left: 100px;
   margin-right: 50px; }
 
-footer {
-  display: flex; }
-  footer img {
-    margin-bottom: -30px;
-    float: right;
-    margin-right: 250px; }
-    footer img:hover {
-      transform: scale(1.5);
-      transition: 2s; }
-  footer img {
-    margin-bottom: -30px;
-    float: right;
-    margin-right: 250px; }
-    footer img:hover {
-      transform: scale(1.5);
-      transition: 2s; }
-  footer img {
-    margin-bottom: -30px;
-    float: right;
-    margin-right: 250px; }
-    footer img:hover {
-      transform: scale(1.5);
-      transition: 2s; }
+#contenido404 h1 {
+  font-size: 4em;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0 auto; }
+
+footer img:hover {
+  transform: scale(1.5);
+  transition: 2s; }
