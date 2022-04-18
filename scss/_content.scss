@@ -31,6 +31,14 @@
 	textarea{
 		margin-top: 100px;
 	}
+	a[href="404.HTML"]{
+		background: map-get($map:$paleta,$key:'dos');
+		padding: 10px 30px;
+		border-radius: 30px;
+		border: none;
+    	text-decoration: none;
+    	color: map-get($map:$paleta,$key:'cinco');
+	}
 	img{
 		width: 80%;
 		margin-top: 10px;
@@ -111,10 +119,3 @@
 	}
 }
 
-#contenido404{
-	h1{
-		font-size: $text1;
-		font-family: $fontPpal;
-		margin-top: 0 auto;
-	}
-}

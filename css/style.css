@@ -91,6 +91,14 @@ body {
 #contenido textarea {
   margin-top: 100px; }
 
+#contenido a[href="404.HTML"] {
+  background: rgba(116, 187, 33, 0.9);
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+  color: black; }
+
 #contenido img {
   width: 80%;
   margin-top: 10px;
@@ -151,11 +159,6 @@ body {
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 50px; }
-
-#contenido404 h1 {
-  font-size: 4em;
-  font-family: "Roboto", sans-serif;
-  margin-top: 0 auto; }
 
 footer img:hover {
   transform: scale(1.5);
